@@ -42,6 +42,9 @@ Library
     ClickHaskell.HTTP
     ClickHaskell.Reading
     ClickHaskell.Writing
+    ClickHaskell.Native
+    ClickHaskell.Native.Packets
+    ClickHaskell.Native.Serialization
     ClickHaskell.Lock
     ClickHaskell.Tables
   Other-Modules:
@@ -73,6 +76,7 @@ Library
       base >= 4.7 && <5
     , bytestring < 0.13
     , deepseq < 1.6
+    , network
     , text < 2.2
     , time < 1.13
     , vector < 0.14
